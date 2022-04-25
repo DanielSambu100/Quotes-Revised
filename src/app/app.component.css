@@ -6,6 +6,7 @@
 
 .container{
     background-color: rgb(182, 186, 185);
+    background-position: center;
     height: 100vh;
     width: 100%;
 }

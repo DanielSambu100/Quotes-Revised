@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  @Input title= 'Dansam Quote App';
+  @Input() title= 'Dansam Quote App';
   constructor() { }
 
   ngOnInit(): void {
