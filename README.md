@@ -10,6 +10,9 @@ This is an Angular cli application that displays quotes, allowing user to input 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
+## Screenshot
+![Screenshot from 2022-04-26 23-08-48](https://user-images.githubusercontent.com/98163899/165383837-70660d2a-dbda-413b-a322-2a68d334086e.png)
+
 ## Live Page 
 https://danielsambu100.github.io/Quotes-Revised/
 
