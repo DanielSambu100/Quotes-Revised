@@ -1,0 +1,23 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: auto;
+}
+.card{
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: grey;
+}
+.span-author{
+    color: green;
+}
+#span-title{
+    color: rgb(41, 15, 15);
+}
+#author{
+    font-family: Shadows Into Light;
+    font-weight: bold;
+    color: white;
+}
