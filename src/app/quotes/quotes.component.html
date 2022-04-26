@@ -1,24 +1,13 @@
 <div>
     <div class="row d-flex cards">
-        <div *ngFor="let quote of quotes" class="col-4-md card text-center">
+        <div *ngFor="let quote of quotes; let i=index" class="col-4-md card text-center">
             <h4 class="headings"> <span id="span-title">{{quote.title}}</span></h4>
             <h5 class="col-12">By: <span class="span-author">{{quote.name}}</span></h5>
             <p class="col-12"><q>{{quote.details}}</q></p> 
             <h5 class="col-12">Author: <span id="author">{{quote.author}}</span></h5>
-            <app-quote-details [quote]="quote"></app-quote-details>
+            <!-- <button (click)='toggleDetails(i)'>Toggle Details</button> -->
+            <app-quote-details *ngIf="quote.showInfo" [quote]="quote"></app-quote-details>
         </div>
     </div>
 </div>
 
-<!-- <div class="row d-flex cards mx-3">
-    <div class="col-4-md card bg-danger"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, corrupti veritatis, quae dolor repellendus amet id quo, expedita repudiandae iure vero vitae aliquam in molestias nesciunt repellat quis? Saepe, unde.</p>
-    </div>
-    <div class="col-4-md card bg-danger"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, corrupti veritatis, quae dolor repellendus amet id quo, expedita repudiandae iure vero vitae aliquam in molestias nesciunt repellat quis? Saepe, unde.</p>
-    </div>
-    <div class="col-4-md card bg-danger"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, corrupti veritatis, quae dolor repellendus amet id quo, expedita repudiandae iure vero vitae aliquam in molestias nesciunt repellat quis? Saepe, unde.</p>
-    </div>
-    <div class="col-4-md card bg-danger"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, corrupti veritatis, quae dolor repellendus amet id quo, expedita repudiandae iure vero vitae aliquam in molestias nesciunt repellat quis? Saepe, unde.</p>
-    </div>
-    <div class="col-4-md card bg-danger"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, corrupti veritatis, quae dolor repellendus amet id quo, expedita repudiandae iure vero vitae aliquam in molestias nesciunt repellat quis? Saepe, unde.</p>
-    </div>
-</div> -->
