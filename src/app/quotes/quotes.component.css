@@ -1,8 +1,6 @@
 .cards{
     display: flex;
     flex-direction: row;
-    /* margin: auto; */
-    padding: 10px;
     height: auto;
     width: 100%;
     justify-items: center;
@@ -11,7 +9,7 @@
     width: 30%;
     margin: 10px;
     border-radius: 10px;
-    background-color: grey;
+    background-color: rgb(181, 176, 176);
 }
 .span-author{
     color: green;
