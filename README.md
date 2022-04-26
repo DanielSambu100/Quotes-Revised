@@ -11,7 +11,7 @@ This is agular cli application that displays quotes, allowing user to input new 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
 ## Live Page 
-https://danielsambu100.github.io/Quotes-Application/
+https://danielsambu100.github.io/Quotes-Revised/
 
 ## Development server
 
