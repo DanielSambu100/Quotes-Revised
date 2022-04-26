@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { FooterComponent } from './footer/footer.component';
+import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     QuotesFormComponent,
     QuotesComponent,
-    FooterComponent
+    FooterComponent,
+    QuoteDetailsComponent
   ],
   imports: [
     BrowserModule,
